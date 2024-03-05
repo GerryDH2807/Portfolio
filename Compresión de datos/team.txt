@@ -1,0 +1,6 @@
+GERARDO DEÚSTUA HERNÁNDEZ - A01736455
+Elaboración del SA, BTW , creación del alfabeto que se utilizó, creación de la función move to front, funcion inversa de MTF a BWT y la inversa del BWT y obtención de tiempo de ejecución
+
+HUGO MUÑOZ RODRÍGUEZ - A01736149
+Creación de la función Run-Length encoder y elaboración de la tabla de correspondencia, creación de la función huffman, funcion inversa 
+de huffman a RLE y funcion inversa de RLE a MTF
