@@ -1,0 +1,128 @@
+body{
+    background-image: url("Fondo.png");
+    background-size: 100%;
+    font-family: 'Inter';
+}
+
+#logo-tec{
+    padding: 1%;
+}
+
+
+.input{
+    margin: 0;
+    padding-left: 20px;
+    border-radius: 30px;
+    border: 0;
+    background-color:#E6E6E6 ;
+    height: 40px;
+    width: 100%;
+    font-size: 14px;
+}
+
+.error{
+    color:white;
+    padding: 10px;
+    font-weight: 900;
+}
+.errordiv{
+    Display:flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    background-color: rgb(185, 80, 80);
+    width: 33.33%;
+    height: 50%;
+}
+
+.botonborde{
+    margin: auto  ;
+    padding: 0;
+    border-radius: 40px;
+    border: 0;
+    background-color:#393939 ;
+    width: 50%;
+    height: 50px;
+}
+
+.botonfinal{
+    background-color: Transparent;
+    background-repeat:no-repeat;
+    border: none;
+    cursor:pointer;
+    overflow: hidden;
+    outline:none;
+    color:aliceblue;
+    font-size:150%;
+    width: 50%;
+}
+
+#botonfinal:hover{ 
+    background: #000000; 
+    color: white; 
+}
+
+.botonborde:hover{
+    background: #000000; 
+}
+
+.botonborde2{
+    margin: auto  ;
+    padding: 0;
+    border-radius: 30px;
+    border: 0;
+    background-color:#999999;
+    width: 50%;
+    height: 50px;
+}
+
+.botonfinal2{
+    background-color: Transparent;
+    background-repeat:no-repeat;
+    border: none;
+    cursor:pointer;
+    overflow: hidden;
+    outline:none;
+    color:aliceblue;
+    font-size:135%;
+    width: 50%;
+}
+
+#botonfinal2:hover{ 
+    background: #000000; 
+    color: white; 
+}
+
+.botonborde2:hover{
+    background: #000000; 
+}
+
+
+.footer {
+    position: fixed;
+    right: 10px;
+    bottom: 0;
+    width: 100%;
+    color: rgb(255, 255, 255);
+    text-align: right;
+}
+
+.fotlink{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+.texto{
+    color:white;
+}
+
+.texto2{
+    color:white;
+    font-size: 45px;
+    font-weight: bold;
+}
+
+#Crearcuenta{
+    text-decoration: none;
+    color:rgb(255, 255, 255)
+}

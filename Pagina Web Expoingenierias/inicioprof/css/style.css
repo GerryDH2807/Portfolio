@@ -1,0 +1,147 @@
+body{
+
+    font-family: 'Inter';
+}
+
+div{
+    width: 35%; 
+    min-width: 300px;
+    padding: 3px;
+}
+
+.input{
+margin: 0;
+padding: 0;
+border-radius: 10px;
+border: 0;
+background-color:#E6E6E6 ;
+height: 30px;
+width: 100%;
+font-size: 14px;
+}
+.input2{
+margin: 0;
+padding: 0;
+border-radius: 10px;
+border: 0;
+background-color:#E6E6E6 ;
+height: 30px;
+width: 50%;
+font-size: 14px;
+border-spacing: 1000px;
+border-collapse: collapse
+}
+
+.botonborde{
+margin: auto  ;
+padding: 0;
+border-radius: 10px;
+border: 0;
+background-color:#00B1FF ;
+}
+
+.botonfinal{
+background-color: Transparent;
+background-repeat:no-repeat;
+border: none;
+cursor:pointer;
+overflow: hidden;
+outline:none;
+color:aliceblue;
+font-size:200%;
+width:95%;
+}
+
+.logo{
+background-color: #003944;
+height: 100%;
+border-radius: 10px;
+}
+
+#botonfinal:hover{ 
+background: #006590; 
+color: white; 
+}
+
+.botonborde:hover{
+background: #006590; 
+}
+
+.footer {
+position: fixed;
+left: 82%;
+bottom: 0;
+color: rgb(0, 0, 0);
+}
+
+hr{
+border-radius: 10px;
+}
+
+        .collapsible {
+          background-color: #777;
+          color: white;
+          cursor: pointer;
+          padding: 10px;
+          width: 100%;
+          border: none;
+          text-align: left;
+          outline: none;
+          font-size: 15px;
+        }
+
+        .active, .collapsible:hover {
+          background-color: #555;
+        }
+
+.content {
+padding: 0 18px;
+max-height: 0;
+overflow: hidden;
+transition: max-height 0.2s ease-out;
+background-color: #f1f1f1;
+}
+
+.scrollogo{
+position: -webkit-sticky;
+position: sticky;
+top: 0;
+z-index:1;
+width: 100%;
+background-color: white;
+}
+
+.alv{
+  text-decoration: none;
+  color: white;
+}
+
+#botonfinal2:hover{ 
+  background: #f29d9d; 
+  color: white; 
+}
+
+.botonborde2:hover{
+  background: #f29d9d; 
+}
+
+.botonborde2{
+  margin: auto  ;
+  padding: 0;
+  border-radius: 10px;
+  border: 0;
+  background-color:#e64545 ;
+}
+
+.botonfinal2{
+  background-color: Transparent;
+  background-repeat:no-repeat;
+  border: none;
+  cursor:pointer;
+  overflow: hidden;
+  outline:none;
+  color:aliceblue;
+  font-size:200%;
+}
+
+

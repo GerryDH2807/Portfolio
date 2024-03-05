@@ -1,0 +1,112 @@
+#navbar{
+    background-color: white;
+    height: 70px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+#navbarAzull{
+  background-color: #ffffff;
+  height: 70px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#navbarAzull img{
+  height: 80%;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+#navbarAzull a{
+  text-decoration: none;
+  color: #082460  ;
+  font-size: 30px;
+  margin-right: 15px;
+}
+#navbarAzull span{
+text-decoration: none;
+color: #082460;
+font-size: 30px;
+vertical-align: -3px;
+}
+#navbar img{
+    height: 80%;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#navbarAzul{
+    background-color: #082460;
+    height: 70px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#navbarAzul img{
+    height: 80%;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#navbarAzul a{
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+    margin-right: 10px;
+}
+#navbarAzul span{
+  text-decoration: none;
+  color: white;
+  font-size: 30px;
+  vertical-align: -3px;
+}
+.material-symbols-outlined {
+    font-variation-settings:
+    'FILL' 100,
+    'wght' 1000,
+    'GRAD' 100,
+    'opsz' 155;
+}
+
+
+.botonbordeR{
+    margin: auto  ;
+    padding: 0;
+    border-radius: 10px;
+    border: 0;
+    background-color:#0095d0 ;
+  }
+  
+  .botonfinalR{
+    background-color: Transparent;
+    background-repeat:no-repeat;
+    border: none;
+    cursor:pointer;
+    overflow: hidden;
+    outline:none;
+    color:aliceblue;
+    font-size:200%;
+    text-decoration:none;
+  }
+  #botonfinalR:hover{ 
+  background: #004a68; 
+  color: white; 
+  text-decoration:none;
+}
+
+.botonbordeR:hover{
+  background: #004a68; 
+}
+
+.alv{
+  text-decoration: none;
+  color: white;
+}
+
+

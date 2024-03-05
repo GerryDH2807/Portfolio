@@ -1,0 +1,191 @@
+#cuerpazo{
+    background-image: url('bigPopa.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    font-family: Inter;
+}
+
+#navbar{
+    background-color: white;
+    height: 70px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#navbar img{
+    height: 80%;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#iconosNavBar{
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+#iconosNavBar1{
+    font-size: 40px;
+    text-decoration: none;
+    color: black;
+    margin-right: 10px;
+}
+
+#iconosNavBar2{
+    font-size: 60px;
+    text-decoration: none;
+    color: black;
+    margin-right: 10px;
+}
+
+#navbarAzul{
+    background-color: #004D5B;
+    height: 60px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#navbarAzul img{
+    height: 80%;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#navbarAzul a{
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+    margin-right: 15px;
+}
+
+.material-symbols-outlined {
+    font-variation-settings:
+    'FILL' 0,
+    'wght' 400,
+    'GRAD' 100,
+    'opsz' 55;
+}
+
+#navbarAzul span{
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+    vertical-align: -3px;
+}
+
+#buscador{
+    height: 10px;
+    width: 30%;
+    min-width: 300px; 
+    margin-left: 8%; 
+    margin-top: 70px;
+}
+
+#buscador span{
+    color: black;
+    font-size: 20px;
+}
+
+.bloqueDesplegable{
+    margin-top: 90px;
+}
+
+#desplegableGeneral{
+    width: 55%;
+    min-width: 400px;
+    margin-left: 2%;
+}
+
+#divAgregar{
+    display: flex;
+    justify-content: flex-start;
+}
+
+#divAgregar a{
+    color: black; 
+    text-decoration:none;
+    font-weight:900;
+    margin-left: 10px;
+}
+
+#listaUsuarios{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+#renglonListaUsuarios{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    background-color: #004D5B;
+    border: white 5px solid;
+    border-radius: 15px;
+}
+
+#matricula{
+    width: 18%;
+    min-width: 110px;
+}
+
+#nombre{
+    width: 28%;
+    min-width: 200px;
+}
+
+#nombreJuez{
+    width: 28%;
+    min-width: 200px;
+}
+
+#matriculaProf{
+    width: 18%;
+    min-width: 110px;
+}
+
+#nombreProf{
+    width: 28%;
+    min-width: 200px;
+}
+
+#renglonListaUsuarios span{
+    margin: 10px;
+    margin-right: 20px;
+    color: white;
+}
+
+#renglonListaUsuarios a{
+    text-decoration: none;
+    margin-right: 10px;
+    color: white;
+}
+
+.botonesRenglonListaUsuarios{
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+}
+
+#proyectosCalif{
+    width: 350px;
+    float: right;
+    margin-right: 5%;
+    margin-top: -65px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#proyectosCalif a{
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 16px;
+}

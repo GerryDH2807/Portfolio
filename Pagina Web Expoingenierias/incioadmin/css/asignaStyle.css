@@ -1,0 +1,183 @@
+#cuerpazo{
+    background-image: url('bigPopa.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    font-family: Inter;
+}
+
+#navbar{
+    background-color: white;
+    height: 70px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#navbar img{
+    height: 80%;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#iconosNavBar{
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+#iconosNavBar1{
+    font-size: 40px;
+    text-decoration: none;
+    color: black;
+    margin-right: 10px;
+}
+
+#iconosNavBar2{
+    font-size: 60px;
+    text-decoration: none;
+    color: black;
+    margin-right: 10px;
+}
+
+#navbarAzul{
+    background-color: #004D5B;
+    height: 60px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#navbarAzul img{
+    height: 80%;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#navbarAzul a{
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+    margin-right: 15px;
+}
+
+.material-symbols-outlined {
+    font-variation-settings:
+    'FILL' 0,
+    'wght' 400,
+    'GRAD' 100,
+    'opsz' 55;
+}
+
+#navbarAzul span{
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+    vertical-align: -3px;
+}
+
+.bloqueDesplegable{
+    margin-top: 50px;
+}
+
+.bloqueDesplegable2{
+    margin-bottom: 50px;
+}
+
+#desplegableGeneral{
+    width: 80%;
+    min-width: 400px;
+}
+
+#desplegableGeneral2{
+    width: 80%;
+    min-width: 400px;
+}
+
+#divAgregar{
+    display: flex;
+    justify-content: flex-start;
+}
+
+#divAgregar a{
+    color: black; 
+    text-decoration:none;
+    font-weight:900;
+    margin-left: 10px;
+}
+
+#listaUsuarios{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+#renglonListaUsuarios{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    background-color: #004D5B;
+    border: white 5px solid;
+    border-radius: 15px;
+}
+
+#matricula{
+    width: 18%;
+    min-width: 110px;
+}
+
+#nombre{
+    width: 28%;
+    min-width: 200px;
+}
+
+#lider{
+    width: 28%;
+    min-width: 200px;
+}
+
+#renglonListaUsuarios span{
+    margin: 10px;
+    margin-right: 20px;
+    color: white;
+}
+
+#renglonListaUsuarios a{
+    text-decoration: none;
+    margin-right: 10px;
+    color: white;
+}
+
+.botonesRenglonListaUsuarios{
+    margin-left: auto;
+}
+
+#menuProfes{
+    padding: 5px;
+    margin-right: 10px;
+    color: white;
+    background-color: #004D5B;
+    border: 1px white solid;
+    border-radius: 10px;
+}
+
+#botonSubm{
+    border: none;
+    background-color: transparent;
+    color: white;
+}
+
+#tituloProy{
+    margin-top: 50px;
+    margin-bottom: 10px;
+    color: #004D5B;
+    font-size: 20px;
+    background-color: white;
+    padding: 5px;
+    border: 2px solid #004D5B;
+    border-radius: 10px;
+}

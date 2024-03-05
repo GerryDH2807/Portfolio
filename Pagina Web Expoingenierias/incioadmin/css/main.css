@@ -1,0 +1,146 @@
+body{
+  font-family: 'Inter';
+}
+.input{
+  margin: 0;
+  padding: 0;
+  border-radius: 10px;
+  border: 0;
+  background-color:#E6E6E6 ;
+  height: 30px;
+  width: 100%;
+  font-size: 14px;
+}
+.input2{
+  margin: 0;
+  padding: 0;
+  border-radius: 10px;
+  border: 0;
+  background-color:#E6E6E6 ;
+  height: 30px;
+  width: 50%;
+  font-size: 14px;
+  border-spacing: 1000px;
+  border-collapse: collapse
+}
+
+.botonborde{
+  margin: auto  ;
+  padding: 0;
+  border-radius: 10px;
+  border: 0;
+  background-color:#00B1FF ;
+}
+
+.botonfinal{
+  background-color: Transparent;
+  background-repeat:no-repeat;
+  border: none;
+  cursor:pointer;
+  overflow: hidden;
+  outline:none;
+  color:aliceblue;
+  font-size:200%;
+}
+
+.logo{
+  background-color: #003944;
+  height: 100%;
+  border-radius: 10px;
+}
+
+#botonfinal:hover{ 
+  background: #006590; 
+  color: white; 
+}
+
+.botonborde:hover{
+  background: #006590; 
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  color: rgb(0, 0, 0);
+  text-align: right;
+}
+
+hr{
+  border-radius: 10px;
+}
+
+.alv{
+  text-decoration: none;
+  color: white;
+}
+
+#botonfinal2:hover{ 
+  background: #f29d9d; 
+  color: white; 
+}
+
+.botonborde2:hover{
+  background: #f29d9d; 
+}
+
+.botonborde2{
+  margin: auto  ;
+  padding: 0;
+  border-radius: 10px;
+  border: 0;
+  background-color:#e64545 ;
+}
+
+.botonfinal2{
+  background-color: Transparent;
+  background-repeat:no-repeat;
+  border: none;
+  cursor:pointer;
+  overflow: hidden;
+  outline:none;
+  color:aliceblue;
+  font-size:200%;
+}
+/*-------------------MENU TOOGLE----------------------------*/
+
+label {
+  background-color: #E6E6E6;
+  cursor: pointer;
+}
+
+label, #content {
+  height: 30px;
+  width: 100%;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  display: inline-block;
+}
+#menu-toggle {
+  display: none;
+}
+
+.etiqueta:visited{
+  background:#757575 ;
+}
+
+#menu {
+  background-color: #E6E6E6;
+  border-radius: 10px;
+  width:100%;
+  overflow: hidden;
+  max-height: 0;
+  padding: 0;
+  margin: 0 auto;
+  -webkit-transition: all 0.3s ease;
+}
+
+#menu-toggle:checked + #menu {
+  max-height: 100px;
+}
+
+.proyectos{
+  color: #767682;
+  text-decoration: none;
+}
